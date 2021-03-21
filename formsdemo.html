@@ -6,14 +6,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body {
+            background-color: #c3c3c3;
+        }
+        
+        p input {
+            background-color: #22eedd;
+        }
+        
+        .myclass1 {
+            background-color: black;
+        }
+        
+        .myclass2 {
+            background-color: blueviolet;
+        }
+        
+        input[type='number'] {
+            background-color: yellow;
+        }
+    </style>
 </head>
 
 <body>
     <h2>Form Demo</h2>
-
+    <p>
+        <input type="text" /> <br /></p>
+    <h2>Form starts here</h2>
     <form>
-        <input type="text" /> <br />
-        <input type="password" /> <br />
+        <input class="myclass1" type="text" /> <br />
+        <input class="myclass2" type="password" /> <br />
         <input type="number" /> <br />
         <input type="date" /> <br />
         <input type="radio" name="gender" />Male <br />
@@ -21,15 +44,15 @@
         <input type="checkbox" />Java <br />
         <input type="checkbox" />Angular <br />
         <input type="checkbox" />Node <br />
-        <input type="color" />
-        <input type="file" />
+        <input type="color" /><br />
+        <input type="file" /><br />
         <select>
 <option>Pune</option>
 <option>Mumbai</option>
 <option>Nagpur</option>
 
-        </select>
-        <input type="submit" />
+        </select><br />
+        <input style="width: 200px;height: 35px;" type="submit" />
 
 
     </form>

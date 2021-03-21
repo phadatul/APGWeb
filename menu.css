@@ -1,0 +1,32 @@
+.login {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.register {
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+
+.mymenu {
+    width: 200px;
+}
+
+.mymenu a {
+    background-color: #179c8a;
+    color: white;
+    display: block;
+    padding: 10px;
+    font-size: larger;
+    text-decoration: none;
+}
+
+.mymenu a:hover {
+    background-color: yellowgreen;
+}
+
+.mymenu a.active {
+    background-color: red;
+}
